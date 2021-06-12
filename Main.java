@@ -15,7 +15,7 @@ public class Main {
         String lispCode = myScan.nextLine();
         boolean isValid = validate(lispCode);
 
-        //Outputs to user whether their import
+        //Outputs to user whether their input was valid
         if(isValid){
             System.out.println("All parenthesis were properly open and closed");
         } else System.out.println("Invalid use of parenthesis");
